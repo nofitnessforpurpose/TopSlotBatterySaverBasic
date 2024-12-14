@@ -67,7 +67,6 @@ Testing indicates good compatability, no software is required.
 
 A minimal configuration requires:  
 - 4 layer PCB
-- 1N4148 Diode
 - 1N5817 Diode
 - 2 Coin cells (TBC size)
 - 2 x 8 way Right angle header (~8 mm engagement length)
