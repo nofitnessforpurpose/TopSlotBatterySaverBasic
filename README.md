@@ -72,7 +72,9 @@ A minimal configuration requires:
 - 2 Coin cells (TBC size)
 - 2 x 8 way Right angle header (~8 mm engagement length)
 
-An advantage of using the approach is the use of a classic power supply case with no modification (removal of screws necessitated for secondary battery change is considered a safety feature (reducing potential risk to young children).  
+An advantage of using the approach is the use of a classic power supply case with no modification (removal of screws necessitated for secondary battery change is considered a safety feature {reducing potential risk to young children}).
+
+The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memeory.
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
