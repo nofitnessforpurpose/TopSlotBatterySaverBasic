@@ -88,6 +88,9 @@ See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.co
 
 
 ## Please note:  
+Such a system does not obviate the need for standard good practice backup proceedures.  
+Assessment for any fitness for purpose is entirely the users responsiblity. Use is entirely at the users own risk. Any degredation to hardware, data loss or corruption is the responsibility of the user.
+
 All information is For Indication only.
 No association, affiliation, recommendation, suitability, fitness for purpose should be assumed or is implied.
 Registered trademarks are owned by their respective registrants.
