@@ -104,9 +104,9 @@ Guidance:
  - Dispose in accordance with local regulations, use Re-cylcing facilties  
 <BR>
  - If chemical exposure occurs, seek immediate medical attention  
- - If a battery is swallowed, seek immediate medical attention
+ - If a battery is swallowed, seek immediate medical attention  
 <BR>
- - Always follow battery manufacturer guidance to prevent thermal events
+ - Always follow battery manufacturer guidance to prevent thermal events  
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
