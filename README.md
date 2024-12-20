@@ -78,32 +78,33 @@ When the main power source is in a good state, no power is drawn from the Batter
 Testing indicates good compatability, no software is required.
 
 A minimal configuration requires:  
-- 4 layer PCB  
-- 1N5187 Diode  
-- 2 Coin cells ( CR2032 )  
-- 2 x 8 way Right angle header (~8 mm engagement length)  
+ - 4 layer PCB  
+ - 1N5187 Diode  
+ - 2 Coin cells ( CR2032 )  
+ - 2 x 8 way Right angle header (~8 mm engagement length)  
 
 An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
 
 The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memeory.
 
-## Stored Energy Safety
+## Stored Energy Use  
 Precautions when using any stored energy device must be employed. With particular focus in this instance on batteries.
 
 Where Coin Cells are used the following guidance may be of assistance:  
-Guidance:
-- Keep batteries away from children
-- Always install the batteries correctly as per instructions
-- Ensure that the contact points are clean and conductive
-- Do not mix different types of battery
-- Do not heat batteries
-- Do not attempt to recharge batteries not specifically designed for recharging
-- Do not dispose of in a fire
-- Do not allow batteries to form a 'Short Circuit' connection
-- Dispose in accordance with local regulations, use Re-cylcing facilties
-
-- If chemical exposure occurs, seek immediate medical attention.
-- If a battery is swallowed, seek immediate medical attention.
+<BR>
+Guidance:  
+ - Keep batteries away from children  
+ - Always install the batteries correctly as per instructions  
+ - Ensure that the contact points are clean and conductive  
+ - Do not mix different types of battery  
+ - Do not heat batteries  
+ - Do not attempt to recharge batteries not specifically designed for recharging  
+ - Do not dispose of in a fire  
+ - Do not allow batteries to form a 'Short Circuit' connection  
+ - Dispose in accordance with local regulations, use Re-cylcing facilties  
+  
+ - If chemical exposure occurs, seek immediate medical attention  
+ - If a battery is swallowed, seek immediate medical attention  
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
