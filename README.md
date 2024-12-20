@@ -107,6 +107,7 @@ Guidance:
  - Always follow battery manufacturer guidance to prevent thermal events  
 
 <BR>
+
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
