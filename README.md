@@ -54,6 +54,8 @@ The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connection
 <BR>
 
 ## Use Case  
+The envisaged use case is in place of the classic power supply adaptor. However, the adaptor may remains in place to protect the internal memory of the unit.
+
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png?raw=true" width="300px" alt="PSION Organiser II Top Slot Basic I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
@@ -61,19 +63,43 @@ The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connection
 </div>
 <BR>
 
+Note it is recomended to:  
+ - Not to have the unit powered when inserting or removing devices.
+ - Connect a PP3 (ANSI:1604A IEC:6LR61) battery to the target unit, followed by the Battery Saver.
+ - Following 'Low Battery Notification', replace the main power source promptly.
+ - Replace the internal standby batteries following.
+ - Ensure regular backups are maintained.
+
+Where a Battery Saver unit is connected to a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw considerable current from the standby batteries. This will relatively rapidly discharge them and reduce the available capcity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON / CLEAR button will result in the unit notifying Low Battery status and powering down.
+
+When the main power source is in a good state, no power is drawn from the Battery Saver standby batteries.
 <BR>
 <BR>
 Testing indicates good compatability, no software is required.
 
 A minimal configuration requires:  
-- 4 layer PCB
-- 1N5187 Diode
-- 2 Coin cells (TBC size)
-- 2 x 8 way Right angle header (~8 mm engagement length)
+- 4 layer PCB  
+- 1N5187 Diode  
+- 2 Coin cells ( CR2032 )  
+- 2 x 8 way Right angle header (~8 mm engagement length)  
 
-An advantage of using the approach is the use of a classic power supply case with no modification (removal of screws necessitated for secondary battery change is considered a safety feature {reducing potential risk to young children}).
+An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
 
 The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memeory.
+
+## Stored Energy Safety
+Precautions when using any stored energy device must be employed. With particular focus in this instance on batteries.
+
+Where Coin Cells are used the following guidance may be of assistance:
+Guidance:
+• Do not allow children to handle batteries
+• Always install the batteries correctly as per instructions
+• Ensure that the contact points are clean and conductive
+• Do not mix different types of battery
+• Do not heat batteries
+• Do not attempt to recharge batteries not specifically designed for recharging
+• Do not dispose of in a fire
+• Dispose in accordance with local regulations, use Re-cylcing facilties
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
