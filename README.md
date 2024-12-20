@@ -1,6 +1,6 @@
 # TopSlotBatterySaver
 
-A minimal Top Slot battery failure memory saver for PSION Organiser II (all family) devices. The design reduces risk of internal devce memory loss due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficent standby power for longer term internal memory retention and specifially not operation. Permitting hours / days for recharge of main power battery or months of power down. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
+A minimal Top Slot battery failure memory saver for PSION Organiser II (all family) devices. The design reduces risk of internal devce memory loss especially due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficent standby power for longer term internal memory retention and specifially not operation. Permitting hours / days for recharge of main power battery or months of power down. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -34,7 +34,7 @@ All the files are required for a complete assembly.
 <BR>
 
 ## Implementation
-The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The 4 layer PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides improved EMC performance over two layer implementations. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> and construction is through hole PCB based for ease of assembly.
+The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intented to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.
 <BR>
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp center positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accomodated. 
@@ -92,14 +92,14 @@ Precautions when using any stored energy device must be employed. With particula
 
 Where Coin Cells are used the following guidance may be of assistance:
 Guidance:
-• Do not allow children to handle batteries
-• Always install the batteries correctly as per instructions
-• Ensure that the contact points are clean and conductive
-• Do not mix different types of battery
-• Do not heat batteries
-• Do not attempt to recharge batteries not specifically designed for recharging
-• Do not dispose of in a fire
-• Dispose in accordance with local regulations, use Re-cylcing facilties
+- Do not allow children to handle batteries
+- Always install the batteries correctly as per instructions
+- Ensure that the contact points are clean and conductive
+- Do not mix different types of battery
+- Do not heat batteries
+- Do not attempt to recharge batteries not specifically designed for recharging
+- Do not dispose of in a fire
+- Dispose in accordance with local regulations, use Re-cylcing facilties
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
