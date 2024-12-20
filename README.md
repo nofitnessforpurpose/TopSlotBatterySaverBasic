@@ -102,12 +102,11 @@ Guidance:
  - Do not dispose of in a fire  
  - Do not allow batteries to form a 'Short Circuit' connection  
  - Dispose in accordance with local regulations, use Re-cylcing facilties  
-<BR>
  - If chemical exposure occurs, seek immediate medical attention  
  - If a battery is swallowed, seek immediate medical attention  
-<BR>
  - Always follow battery manufacturer guidance to prevent thermal events  
 
+<BR>
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
