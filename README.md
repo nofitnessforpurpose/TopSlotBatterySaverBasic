@@ -90,7 +90,7 @@ The device would support extended use from alternate external power sources i.e.
 ## Stored Energy Safety
 Precautions when using any stored energy device must be employed. With particular focus in this instance on batteries.
 
-Where Coin Cells are used the following guidance may be of assistance:
+Where Coin Cells are used the following guidance may be of assistance:  
 Guidance:
 - Do not allow children to handle batteries
 - Always install the batteries correctly as per instructions
