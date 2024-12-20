@@ -92,7 +92,7 @@ Precautions when using any stored energy device must be employed. With particula
 
 Where Coin Cells are used the following guidance may be of assistance:  
 Guidance:
-- Do not allow children to handle batteries
+- Keep batteries away from children
 - Always install the batteries correctly as per instructions
 - Ensure that the contact points are clean and conductive
 - Do not mix different types of battery
@@ -101,6 +101,9 @@ Guidance:
 - Do not dispose of in a fire
 - Do not allow batteries to form a 'Short Circuit' connection
 - Dispose in accordance with local regulations, use Re-cylcing facilties
+
+- If chemical exposure occurs, seek immediate medical attention.
+- If a battery is swallowed, seek immediate medical attention.
 
 ## Considerations
 Models or files makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
