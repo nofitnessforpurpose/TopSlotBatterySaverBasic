@@ -99,6 +99,7 @@ Guidance:
 - Do not heat batteries
 - Do not attempt to recharge batteries not specifically designed for recharging
 - Do not dispose of in a fire
+- Do not allow batteries to form a 'Short Circuit' connection
 - Dispose in accordance with local regulations, use Re-cylcing facilties
 
 ## Considerations
