@@ -78,9 +78,9 @@ When the main power source is in a good state, no power is drawn from the Batter
 Testing indicates good compatability, no software is required.
 
 A minimal configuration requires:  
- - 4 layer PCB  
+ - 2 layer PCB  
  - 1N5187 Diode  
- - 2 Coin cells ( CR2032 )  
+ - 2 Coin cells holders and batteries ( CR2032 )  
  - 2 x 8 way Right angle header (~8 mm engagement length)  
 
 An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
