@@ -88,7 +88,7 @@ An advantage of using the approach is the use of a classic power supply case wit
 The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memeory.
 
 ## Stored Energy Use  
-Precautions when using any stored energy device must be employed. With particular focus in this instance on batteries.
+Precautions when using any stored energy device must be employed, with particular focus in this instance on batteries.
 
 Where Coin Cells are used the following guidance may be of assistance:  
 <BR>
