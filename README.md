@@ -128,10 +128,12 @@ The original male 8 way 2 row top slot header style connector (marked MXS 70224)
 
 Connecting any device which has not undergone thorough testing, will lead to irreversible degradation!  
 
+<BR>
 
 ## Questions / Discussion
 See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
 
+<BR>
 
 ## Please note:  
 Such a system does not obviate the need for standard good practice backup procedures.  
