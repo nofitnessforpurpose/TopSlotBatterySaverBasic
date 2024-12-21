@@ -37,7 +37,8 @@ All the files are required for a complete assembly.
 The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.  
 <BR>
 The principle of the approach is embodied in the classic 10.4 Volt (and potentially other) PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal 9 Volt PP3 battery and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period e.g. during PP3 battery change.  
-
+<BR>
+No support code is required for this device.
 <BR>
 
 ### Device Power Source  
