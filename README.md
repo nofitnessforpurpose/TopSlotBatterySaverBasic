@@ -39,6 +39,7 @@ The design presents a battery backup system interface to the Top Slot hardware o
 The principle of the approach is embodied in the classic 10.4 Volt (and potentially other) PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal 9 Volt PP3 battery and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period e.g. during PP3 battery change.  
 <BR>
 No support code is required for this device.
+
 <BR>
 
 ### Device Power Source  
@@ -47,7 +48,7 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 <BR>
 
 ### Power Backup
-A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal battery become depleted. Switching is automatic and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
+A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
 <BR>
 
