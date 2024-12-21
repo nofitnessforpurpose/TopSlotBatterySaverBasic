@@ -34,25 +34,32 @@ All the files are required for a complete assembly.
 <BR>
 
 ## Implementation
-The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.
+The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.  
 <BR>
-### Device Power Source  
-A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated.
+The principle of the approach is embodied in the classic 10.4 Volt (and potentially other) PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal 9 Volt PP3 battery and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period e.g. during PP3 battery change.  
 
 <BR>
-### Power Backup
-A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal battery become depleted. Switching is automatic and the purposefully lower secondary battery level restricts usage to notification and memory backup only,
+
+### Device Power Source  
+A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated.  
+
 <BR>
+
+### Power Backup
+A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal battery become depleted. Switching is automatic and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
+
+<BR>
+
 ### Retention period
-This will be determined when battery size selection has been finalised, months are envisaged for stand by operation only. This will be shortened by power on sequences which are considerably higher power drain events.
+This will be determined when battery size selection has been finalised, months are envisaged for stand by operation only. This will be shortened by power on sequences which are considerably higher power drain events.  
+
 <BR>
 
 ### Connections  
 Internally a 0.1" header is available to accommodate alternate 9 volt power systems (possibly <a target="_blank" rel="noopener noreferrer" href="https://www.adafruit.com/product/5644">this</a> and a USB lead).  
 
-The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connections are used.
+The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connections are used.  
 
-<BR>
 <BR>
 
 ## Use Case  
@@ -87,7 +94,9 @@ A minimal configuration requires:
 
 An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
 
-The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory.
+The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory.  
+
+<BR>
 
 ## Stored Energy Use  
 Precautions when using any stored energy device must be employed, with particular focus in this instance on batteries.
