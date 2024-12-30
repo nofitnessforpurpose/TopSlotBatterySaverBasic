@@ -4,7 +4,7 @@ A minimal Top Slot, battery failure memory saver for PSION Organiser II (all fam
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotBatterySaver/blob/main/photos/BATSVE-03.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-11.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
