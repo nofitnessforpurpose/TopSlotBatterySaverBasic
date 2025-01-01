@@ -83,7 +83,7 @@ PCB is tested for trace continuity and trace short circuits.
    
 Assembled PCB is tested for:
  - Visual inspection for connector alignment, solder balls or whiskers
- - Electical tests on connector for short circuits
+ - Electrical tests on connector for short circuits
  - 0 Volt connection continuty
  - Diode(s) polarity test
  - Barrel Jack connector polarity verification
