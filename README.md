@@ -80,7 +80,7 @@ Test a) is believed to be the most demanding current draw and simulates the most
 ## Assembly testing
 PCB is tested for short circuits.  
 Assembled PCB is tested for:  
- - PCB visual inspection including screen prining, traces, coatings, via quality and dimensional verification
+ - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification
    
 Post assembly:
  - Visual inspection for connector alignment, solder balls or whiskers
