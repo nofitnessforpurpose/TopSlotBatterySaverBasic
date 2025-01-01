@@ -34,29 +34,74 @@ All the files are required for a complete assembly.
 ## Implementation
 The design presents a battery backup system interface to the Top Slot hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.  
 <BR>
-The principle of the approach is embodied in the classic 10.4 Volt (and potentially other) PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal 9 Volt PP3 battery and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period (longer than the ~30 seconds provided by the internal capacitor) e.g. during PP3 battery change.  
-<BR>
-No support code is required for this device.
-
+A minimum configuration comprises:  
+- a 2 layer PCB  
+- 1N4148 diode
+- 2 battery clips
+- 2 x 8 way Right angle header (~8 mm engagement length)
+- 2 off CR2032 batteries or similar
 <BR>
 
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated. (This is the same connector used on the classic Arduino Uno and Mega boards).  
-  
 
 <BR>
 
 ### Power Backup
-A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
+A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
 <BR>
 
-### Retention period
-This will be determined when battery size selection has been finalised, months are envisaged for stand by operation only. This will be shortened by power on sequences which are considerably higher power drain events.  
+
+## OPERATION  
+The principle of the approach is embodied in the classic 10.4 Volt (and potentially other) PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal 9 Volt PP3 battery and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period (longer than the ~30 seconds provided by the internal capacitor) e.g. during PP3 battery change.  
+<BR>
+Operation of the Low Battery Voltage mode is described in section <a target="_blank" rel="noopener noreferrer" href = "https://www.jaapsch.net/psion/tech07.htm#p7.4.3">7.4.3  LOW BATTERY TEST</a>. Typically when a machine is powered on, either by pressing the ON/CLEAR button or via activation of the Top Slot AC line, the keyboard buffer will be empty and the Low Battery state evaluated by testing the state of D0 on PORT 5 of the Hitachi 6303 micro processor.  
+<BR>
+In the case of low or no main system voltage (e.g. 9 Volt battery), the Battery Saver voltage will (with new batteries) present ~6.3 volts on the Top Slot main power line VB (SVB). Via a diode, thus causing the system to retain internal RAM contents. In the event the system is activated e.g. via the ON/CLEAR button, there is typically sufficient power for the device to momentarily activate and the BATTERY TOO LOW message is displayed on the Organiser's screen (See section 10 of the <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/manxp2.htm">CM/XP Manual</a>).  
 
 <BR>
 
-### Connections  
+## Retention period
+In standby mode, the device typically consumes 30 uA as described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech03.htm#p3.4">3.4  STANDBY REGULATOR</a>. Assuming high performance Lithium / Manganese Dioxide (Li/MnO2) CR2032's and the device power not activated by pressing ON/CLEAR, the device at room temperature. Memory protection of ~1 year is anticipated, following loss of the 9 Volt main battery power.  
+
+<BR>
+
+## Testing
+Test conditions:  
+MODEL XP ROM 3.6, 1 x 32k ROM (COMMS), 1 x 32K RAMPAK, Battery Saver Rev 0.1, Panasonic CR2025's  
+a) 2 cycles - No Power Source - Off 1 Minute - ON/CLEAR - Low Battery Warning sequences - No issues  
+b) 2 cycles - No Power Source - Off 5 minutes - Battery fitted - No issues  
+
+Test a) is believed to be the most demanding current draw and simulates the most likely scenario for regular use.  
+
+<BR>
+
+## Assembly testing
+PCB is tested for short circuits.  
+Assembled PCB is tested for:  
+ - PCB visual inspection including screen prining, traces, coatings, via quality and dimensional verification
+Post assembly:
+ - Visual inspection for connector alignment, solder balls or whiskers
+ - Electical tests on connector for short circuits
+ - 0 Volt connection continuty
+ - Diode(s) polarity test
+ - Barrel Jack connector polarity verification
+ - Battery spring retention check
+ - Standby battery power provision
+ - Insertion into Organiser Model CM
+ - Test a) and b) included in 1 hour use in Top Slot  
+
+Note: tests are performed using the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotSpy">Top Slot Spy</a> and using a MODEL CM device.  
+
+<BR>
+
+## Software  
+No support code is required for this device.  
+
+<BR>
+
+## Connections  
 Internally a 0.1" header is available to accommodate alternate 9 volt power systems (possibly <a target="_blank" rel="noopener noreferrer" href="https://www.adafruit.com/product/5644">this</a> and a USB lead).  
 
 The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connections are used.  
@@ -77,7 +122,7 @@ Note it is recommended to:
  - Not to have the unit powered when inserting or removing devices  
  - Connect a PP3 (ANSI:1604A IEC:6LR61) battery to the target unit, followed by the Battery Saver  
  - Following 'Low Battery Notification', replace the main power source promptly  
- - Replace the internal standby batteries following  
+ - Replace the Battery Saver internal standby batteries following any main power loss event  
  - Ensure regular backups are maintained  
 
 Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw considerable current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON / CLEAR button will result in the unit notifying Low Battery status and powering down.
