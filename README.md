@@ -78,11 +78,10 @@ Test a) is believed to be the most demanding current draw and simulates the most
 <BR>
 
 ## Assembly testing
-PCB is tested for short circuits.  
-Assembled PCB is tested for:  
+PCB is tested for trace continuity and trace short circuits.  
  - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification
    
-Post assembly:
+Assembled PCB is tested for:
  - Visual inspection for connector alignment, solder balls or whiskers
  - Electical tests on connector for short circuits
  - 0 Volt connection continuty
@@ -90,6 +89,8 @@ Post assembly:
  - Barrel Jack connector polarity verification
  - Battery spring retention check
  - Standby battery power provision
+
+Post Assembly tests:
  - Insertion into Organiser Model CM
  - Test a) and b) included in 1 hour use in Top Slot  
 
