@@ -127,22 +127,16 @@ Note it is recommended to:
  - Replace the Battery Saver internal standby batteries following any main power loss event  
  - Ensure regular backups are maintained  
 
-Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw considerable current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON / CLEAR button will result in the unit notifying Low Battery status and powering down.
+Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw considerable current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON/CLEAR button will result in the unit notifying Low Battery status and powering down.
 
 When the main power source is in a good state, no power is drawn from the Battery Saver standby batteries.
 <BR>
 <BR>
 Testing indicates good compatibility, no software is required.
 
-A minimal configuration requires:  
- - 2 layer PCB  
- - 1N5187 Diode  
- - 2 Coin cells holders and batteries ( CR2032 )  
- - 2 x 8 way Right angle header (~8 mm engagement length)  
-
 An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
 
-The device would support extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory.  
+The device supports extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory. This reduces reliance on 9 volt battery use and would provide up to 12 months memory retention, provided the ON/CLEAR not utilised whith no power source connected (see Testing).
 
 <BR>
 
