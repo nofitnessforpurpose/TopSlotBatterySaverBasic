@@ -70,7 +70,7 @@ In standby mode, the device typically consumes 30 uA as described in section <a 
 ## Testing
 Test conditions:  
 MODEL XP ROM 3.6, 1 x 32k ROM (COMMS), 1 x 32K RAMPAK, Battery Saver Rev 0.1, Panasonic CR2025's  
-Commence and complete with fitting of PP3 battery or mains sourced power.  
+Commence and complete fitting of PP3 battery or mains sourced power, followed by insertion of Battery Saver into Top Slot. No Power refers to removal of main power (PP3 or other).  
 a) 2 cycles - No Power Source - Off 1 Minute - ON/CLEAR - Low Battery Warning sequences - No issues  
 b) 2 cycles - No Power Source - Off 5 minutes - Battery fitted - No issues  
 c) 2 cycles - No Power Source - Off 9 hours - Battery fitted - No issues  
