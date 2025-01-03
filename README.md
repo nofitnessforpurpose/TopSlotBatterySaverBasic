@@ -83,6 +83,7 @@ All the above tests performed on the same battery set.
 ## Assembly testing
 PCB is tested for trace continuity and trace short circuits.  
  - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification
+ - PCB Electrical verifications for trace continuity and short circuits
    
 Assembled PCB is tested for:
  - Visual inspection for connector alignment, solder balls or whiskers
