@@ -131,7 +131,7 @@ Note it is recommended to:
  - Replace the Battery Saver internal standby batteries following any main power loss event  
  - Ensure regular backups are maintained  
 
-Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw considerable current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON/CLEAR button will result in the unit notifying Low Battery status and powering down.
+Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw relatively high current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON/CLEAR button will result in the unit notifying Low Battery status and powering down.
 
 When the main power source is in a good state, no power is drawn from the Battery Saver standby batteries.
 <BR>
