@@ -38,7 +38,7 @@ A minimum configuration comprises:
 - a 2 layer PCB  
 - 1N4148 diode
 - 2 battery clips
-- 2 x 8 way Right angle header (~8 mm engagement length)
+- 2 x 8 way Right angle header (~8 mm engagement length, gold plated)
 - 2 off CR2032 batteries or similar
 <BR>
 
