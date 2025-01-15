@@ -43,7 +43,7 @@ A minimum configuration comprises:
 <BR>
 
 ### Device Power Source  
-A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated. (This is the same connector used on the classic Arduino Uno and Mega boards).  
+A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack (This is the same connector used on the classic Arduino Uno and Mega boards),  connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated.   
 
 <BR>
 
