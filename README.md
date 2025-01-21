@@ -126,7 +126,9 @@ The envisaged use case is in place of the classic power supply adaptor. However,
 
 Note it is recommended to:  
  - Not to have the unit powered when inserting or removing devices  
- - Connect a PP3 (ANSI:1604A IEC:6LR61) battery to the target unit, followed by the Battery Saver  
+ - Connect a PP3 (ANSI:1604A IEC:6LR61) battery to the target unit, followed by inserting the Battery Saver   
+   or
+ - Power from via the external power sourced via the Battery Saver unit
  - Following 'Low Battery Notification', replace the main power source promptly  
  - Replace the Battery Saver internal standby batteries following any main power loss event  
  - Ensure regular backups are maintained  
