@@ -45,10 +45,18 @@ A minimum configuration comprises:
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack (This is the same connector used on the classic Arduino Uno and Mega boards),  connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated.   
 
-<BR>
-
 ### Power Backup
 A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
+
+Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">Top Slot Battery Saver Basic - Testing</a>.
+
+### Software
+The device is transparent to the Organiser's Operating system and requires no software to operate.  
+
+<BR>
+
+## USE
+It is preferable to avoid conneting the unit with no power source avilable e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection. So as to avoid unecessarily discharging the backup batteries. By providing a main power source prior to connection of the unit. The internal capacitors of the Orgnaiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and protection.
 
 <BR>
 
@@ -58,7 +66,7 @@ The principle of the approach is embodied in the classic 10.4 Volt, and potentia
 <BR>
 Operation of the Low Battery Voltage mode is described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech07.htm#p7.4.3">7.4.3  LOW BATTERY TEST</a>. Typically when a machine is powered on, either by pressing the ON/CLEAR button or via activation of the Top Slot AC line, the keyboard buffer will be empty and the Low Battery state evaluated by testing the state of D0 on PORT 5 of the Hitachi 6303 micro processor.  
 <BR>
-In the case of low or no main system voltage (e.g. 9 Volt battery), the Battery Saver voltage will (with new batteries) present ~6.3 volts on the Top Slot main power line VB (SVB). Via a diode, thus causing the system to retain internal RAM contents. In the event the system is activated e.g. via the ON/CLEAR button, there is typically sufficient power for the device to momentarily activate and the BATTERY TOO LOW message is displayed on the Organiser's screen (See section 10 of the <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/manxp2.htm">CM/XP Manual</a>).  
+In the case of low or no main system voltage (e.g. 9 Volt battery), the Battery Saver voltage will (with new batteries) present ~6.3 volts on the Top Slot main power line VB (SVB). Via a diode, thus causing the system to retain internal RAM contents. In the event the system is activated e.g. via the ON/CLEAR button, there is typically sufficient power for the device to momentarily activate and the BATTERY TOO LOW message is displayed on the Organiser's screen (See section 10 of the <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/manxp2.htm#p10-1">CM/XP Manual</a>).  
 
 <BR>
 
@@ -102,12 +110,7 @@ Note: tests are performed using the <a target="_blank" rel="noopener noreferrer"
 
 <BR>
 
-## Software  
-No support code is required for this device.  
-
-<BR>
-
-## Connections  
+## Internal Connections  
 Internally a 0.1" header is available to accommodate alternate 9 volt power systems (possibly <a target="_blank" rel="noopener noreferrer" href="https://www.adafruit.com/product/5644">this</a> and a USB lead).  
 
 The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connections are used.  
