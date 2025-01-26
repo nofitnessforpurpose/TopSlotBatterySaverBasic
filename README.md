@@ -160,14 +160,15 @@ Where Coin Cells are used the following guidance may be of assistance:
 <BR>
 Guidance:  
  - Keep batteries away from children  
- - Always install the batteries correctly as per instructions  
+ - Always install the batteries correctly as per instructions
+ - Remove batteries and store carefully when device not in use  
  - Ensure that the contact points are clean and conductive  
  - Do not mix different types of battery  
  - Do not heat batteries  
  - Do not attempt to recharge batteries not specifically designed for recharging  
  - Do not dispose of in a fire  
  - Do not allow batteries to form a 'Short Circuit' connection  
- - Dispose in accordance with local regulations, use Re-cycling facilities  
+ - Dispose in accordance with local regulations, use Re-cycling facilities    
  - If chemical exposure occurs, seek immediate medical attention  
  - If a battery is swallowed, seek immediate medical attention  
  - Always follow battery manufacturer guidance to prevent thermal events  
