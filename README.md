@@ -96,8 +96,9 @@ PCB is tested for trace continuity and trace short circuits.
 Assembled PCB is tested for:
  - Visual inspection for connector alignment, solder balls or whiskers
  - Electrical tests on connector for short circuits
- - 0 Volt connection continuty
+ - 0 Volt connection continuity
  - Diode(s) polarity test
+ - Diode type and location verification
  - Barrel Jack connector polarity verification
  - Battery spring retention check
  - Standby battery power provision
@@ -132,11 +133,14 @@ Note it is recommended to:
  - Connect a PP3 (ANSI:1604A IEC:6LR61) battery to the target unit, followed by inserting the Battery Saver   
    or
  - Power from via the external power sourced via the Battery Saver unit
+ - Use only the original adaptor, or power supply having the same supply voltage
  - Following 'Low Battery Notification', replace the main power source promptly  
- - Replace the Battery Saver internal standby batteries following any main power loss event  
- - Ensure regular backups are maintained  
+ - Replace the Battery Saver internal standby batteries following any extended period of main power loss
+ - Ensure regular backups are maintained
+ - Always use a case requiring a tool to obtain access to batteries i.e. screw fixing
+ 
 
-Where a Battery Saver unit is inserted into a device without 'internal power', such as a PP3 battery, the units internal capacitors will draw relatively high current from the standby batteries. This will relatively rapidly discharge them and reduce the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON/CLEAR button will result in the unit notifying Low Battery status and powering down.
+Where a Battery Saver unit is inserted into a discharged device without 'internal power', such as a PP3 battery, the units internal capacitors will draw relatively high current from the standby batteries. This will relatively rapidly discharge the standby batteries, reducing the available capacity available to act for long term storage protection. The design is intended not to provide sufficient voltage to allow operation. Pressing the ON/CLEAR button will result in the unit notifying Low Battery status and powering down.
 
 When the main power source is in a good state, no power is drawn from the Battery Saver standby batteries.
 <BR>
