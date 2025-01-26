@@ -71,7 +71,7 @@ In the case of low or no main system voltage (e.g. 9 Volt battery), the Battery 
 <BR>
 
 ## Retention period
-In standby mode, the device typically consumes 30 uA as described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech03.htm#p3.4">3.4  STANDBY REGULATOR</a>. An XP device was measured at 19 uA continous, not including clock maintenance. Assuming high performance Lithium / Manganese Dioxide (Li/MnO2) CR2032's and the device power not activated by pressing ON/CLEAR, the device at room temperature. Memory protection of ~1 year is anticipated, following loss of the 9 Volt main battery power.  
+In standby mode, the device typically consumes 30 uA as described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech03.htm#p3.4">3.4  STANDBY REGULATOR</a>. An XP device was measured at 19 uA continous current draw from backup cells, not including clock maintenance. Assuming high performance Lithium / Manganese Dioxide (Li/MnO2) CR2032's and the device power not activated by pressing ON/CLEAR, the device at room temperature. Memory protection of ~1 year is anticipated, following loss of the 9 Volt main battery power.  
 
 <BR>
 
