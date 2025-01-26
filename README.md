@@ -162,6 +162,7 @@ Guidance:
  - Keep batteries away from children  
  - Always install the batteries correctly as per instructions
  - Remove batteries and store carefully when device not in use  
+ - Remove discharged batteries from device promptly  
  - Ensure that the contact points are clean and conductive  
  - Do not mix different types of battery  
  - Do not heat batteries  
