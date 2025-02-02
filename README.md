@@ -149,7 +149,7 @@ Testing indicates good compatibility, no software is required.
 
 An advantage of using the approach is the use of a classic power supply case with no modification (See note on original connector). Removal of case screw necessitated for secondary battery change, is considered a safety feature (reducing potential risk to young children accessing coin cells).
 
-The device supports extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory. This reduces reliance on 9 volt battery use and would provide up to 12 months memory retention, provided the ON/CLEAR not utilised whith no power source connected (see Testing).
+The device supports extended use from alternate external power sources i.e. without main battery, as when external source removed the Coin cells automatically switch in to retain internal memory. This reduces reliance on 9 volt battery use and would provide up to 12 months memory retention, provided the ON/CLEAR not utilised whith no main power source connected (see Testing).
 
 <BR>
 
