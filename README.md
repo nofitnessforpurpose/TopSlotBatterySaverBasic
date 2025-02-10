@@ -31,6 +31,12 @@ All the files are required for a complete assembly.
 <BR>
 <BR>
 
+### On-Line Preview   
+Models might be viewed on line using the following links. Noting display of any mesh lines is a feature of the renderer and are not contained in the source STEP model. It is strongly recommended to use the source STEP file where ever possible, as any export process will introduce artifacts.  
+ - PCB - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/CAD/Asspcb.stp">here</a>  
+ - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/CAD/Assbsb.stp">here</a>  
+<BR>
+<BR>
 ## Implementation
 The design presents a battery backup system interface to the <a href="https://www.jaapsch.net/psion/manxp.htm#c1">Top Slot</a> hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.  
 <BR>
