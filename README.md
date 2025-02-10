@@ -1,4 +1,4 @@
-# Top Slot Battery Saver Basic
+# Top Slot Battery Saver Basic - Protect Basic
 
 A minimal Top Slot, battery failure memory saver for PSION Organiser II (all family) devices. The design reduces risk of internal device memory loss especially due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficient standby power for longer term internal memory retention and specifically not operation. Permitting hours / days for recharge of main power battery or months of power down whilst preserving the internal RAM contents. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
