@@ -69,7 +69,7 @@ It is preferable to avoid conneting the unit with no power source avilable e.g. 
 
 
 ## Operation  
-The principle of the approach is embodied in the classic 10.4 Volt, and potentially other, PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Nine-volt_battery">9 Volt PP3 battery</a> and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period (longer than the ~30 seconds provided by the internal capacitor - <a href="https://www.jaapsch.net/psion/manxp.htm#c2">CM/XP Manual Section 2</a>) e.g. during PP3 battery change.  
+The principle of the approach is embodied in the classic 10.4 Volt, and potentially other, PSION Organiser power supplies. The classic 10.4 Volt power supply includes a resistor and Zener Diode arrangement which will present a 6.4 Volt regulated voltage to the device for a short period in the event no internal <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Nine-volt_battery">9 Volt PP3 battery</a> and loss of mains power. With the arrangement the internal memory contents would be retained for a limited period (longer than the ~30 seconds provided by the internal capacitor - <a href="https://www.jaapsch.net/psion/manxp.htm#c2">CM/XP Manual Section 2</a> ) e.g. during PP3 battery change.  
 <BR>
 Operation of the Low Battery Voltage mode is described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech07.htm#p7.4.3">7.4.3  LOW BATTERY TEST</a>. Typically when a machine is powered on, either by pressing the ON/CLEAR button or via activation of the Top Slot AC line, the keyboard buffer will be empty and the Low Battery state evaluated by testing the state of D0 on PORT 5 of the Hitachi 6303 micro processor.  
 <BR>
@@ -126,7 +126,7 @@ The unit uses the Vbb and 0 Volt connection of the Top Slot, no other connection
 <BR>
 
 ## Use Case  
-The envisaged use case is in place of the classic power supply adaptor. However, the adaptor may remains in place to protect the internal memory of the unit.
+The envisaged use case is in place of the classic power supply adaptor. However, the adaptor may remain in place to protect the internal memory of the unit.
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -184,7 +184,7 @@ Guidance:
 <BR>
 
 ## Considerations
-Models or files makes no accommodation for manufacturing tolerances, process or material - see Notes below.  
+<a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/tree/main#on-line-preview">Models or files</a> in this repository make no accommodation for manufacturing tolerances, process or material - see Notes below.  
 
 The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily available 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accommodation will depend on your selected pin header moulding.  
 
@@ -193,7 +193,7 @@ Connecting any device which has not undergone thorough testing, will lead to irr
 <BR>
 
 ## Questions / Discussion
-See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
+See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/viewtopic.php?t=286"> Organiser 2 Hardware </a> forum, though see note below first.
 
 <BR>
 
