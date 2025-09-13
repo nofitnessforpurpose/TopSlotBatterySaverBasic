@@ -56,7 +56,7 @@ A minimum configuration comprises:
 | Qty | Mouser Pt. No.   | Description        |
 | --- | ---------------- | ------------------ |  
 |  1  | 512-1N4148       | 1N4148 diode       |
-|  2  | 712-BAT-HLD-001  | battery clips      |
+|  2  | 712-BAT-HLD-001  | Battery clips      |
 |  1  | 649-1012938291604BLF | 2 x 8 way Right angle header (~8 mm engagement length, gold plated) |
 |  2  | 658-CR2032       | CR2032 batteries or similar |
   
@@ -81,18 +81,18 @@ b) If using the original manufacturer case the connector must be also be used, t
 ### Device Power Source  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack (This is the same connector used on the classic Arduino Uno and Mega boards),  connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated.   
 
-### Power Backup
+### Power Backup  
 A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
 Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">Top Slot Battery Saver Basic - Testing</a>.
 
-### Software
+### Software  
 The device is transparent to the Organiser's Operating system and requires no software to operate.  
 
 <BR>
 
-## USE
-It is preferable to avoid conneting the unit with no power source avilable e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection. So as to avoid unecessarily discharging the backup batteries. By providing a main power source prior to connection of the unit. The internal capacitors of the Orgnaiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and protection.
+## USE  
+Always ensure a main power source is connected before attaching the Battery Saver unit. This allows the Organiser’s internal capacitors to charge from the main power supply source rather than the backup battery system, thereby extending battery life of the Battery Saver and enhancing overall protection.  
 
 <BR>
 
@@ -106,12 +106,12 @@ In the case of low or no main system voltage (e.g. 9 Volt battery), the Battery 
 
 <BR>
 
-## Retention period
+## Retention period  
 In standby mode, the XP & LA devices typically consumes 30 uA as described in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech03.htm#p3.4">3.4  STANDBY REGULATOR</a>. Later LZ64 models were observed to consume of the order of 2 times the stated value contained in the Technical Reference Manual whilst in standby mode (due to increased internal RAM). An XP device was measured at 19 uA continous current draw from backup cells, not including clock maintenance. Assuming high performance Lithium / Manganese Dioxide (Li/MnO2) CR2032's and the device power not activated by pressing ON/CLEAR, the device at room temperature. Memory protection of ~1 year is anticipated, following loss of the 9 Volt main battery power. This would for example result in Lithium-Ion batteries with the Battery Saver in effect having similar backup capability to traditional Alkaline cells or increased protection periods for Alkaline cell usage as desired.  
 
 <BR>
 
-## Testing
+## Testing  
 Test conditions:  
 MODEL XP ROM 3.6, 1 x 32k ROM (COMMS), 1 x 32K RAMPAK, Battery Saver Rev 0.1, Panasonic CR2025's  
 Commence and complete fitting of PP3 battery or mains sourced power, followed by insertion of Battery Saver into Top Slot. No Power refers to removal of main power (PP3 or other).  
@@ -125,29 +125,28 @@ All the above tests performed on the same battery set.
 <BR>
 
 ## Assembly  
-
 It is strongly recommended to follow the testing regimen detailed pre and post assembly.  
 
 Most components are traditional soldered ‘through-hole’ types. To ensure high-quality solder joints, clean the PCB and battery clip feet with Isopropyl Alcohol immediately before assembly, and use a quality rosin flux.  
 
-Begin assembly with the connector, as outlined in the <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">alignment guide</a>. Then proceed with mounting components on the top side of the PCB, starting with the lowest-profile parts and working up to the tallest.  
-
-Correct orientation of the two diodes D10 & D11 is critical to proper operation of the Battery Saver. The Cathode end of both diodes are oriented towards the Top Slot multiway connector (see <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-13.jpg">image</a>, <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-06.png">also</a>  ).
+Begin assembly with the connector, as outlined in the <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">alignment guide</a>. Then proceed with mounting components on the top side of the PCB, starting with the lowest-profile parts and working up to the tallest.    
+  
+Correct orientation of the two diodes D10 & D11 is critical to proper operation of the Battery Saver. The Cathode end of both diodes are oriented towards the Top Slot multiway connector (see <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-13.jpg">image</a>, <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-06.png">also</a> ).  
 
 The final component to install should be the lower battery retention clip. It’s important that the clip’s soldered surface mates directly with the PCB, as the clearance between the lower case and clip is minimal. To prevent the clip feet from lifting during soldering, secure them with Kapton tape or a similar method. This helps avoid excess solder raising the clip, which could cause interference with the bottom cover.  
-
-Since the clip acts as a spring once the battery is inserted, the solder joint will be under continuous mechanical stress. Therefore, a strong, clean solder joint—achieved through proper cleaning, flux application, and technique—is essential.  
+  
+Since the clip acts as a spring once the battery is inserted, the solder joint will be under continuous mechanical stress. Therefore, a strong, clean solder joint—achieved through proper cleaning, flux application, and technique — is essential.  
  
 <BR>
 
-## Assembly testing
+## Assembly testing  
 PCB is tested for trace continuity and trace short circuits.  
- - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification
- - PCB Electrical verifications for trace continuity and short circuits
+ - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification  
+ - PCB Electrical verifications for trace continuity and short circuits  
    
-Assembled PCB is tested for:
- - Visual inspection for connector alignment, solder balls or whiskers
- - Electrical tests on connector for short circuits
+Assembled PCB is tested for:  
+ - Visual inspection for connector alignment, component seating, solder balls, bridges or whiskers  
+ - Electrical tests on connector for short circuits  
  - 0 Volt connection continuity
  - Diode(s) polarity test
  - Diode type and location verification
