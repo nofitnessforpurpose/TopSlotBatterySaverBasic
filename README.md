@@ -95,6 +95,12 @@ Test c) is believe to be the most realistic scenario for regular use.
 All the above tests performed on the same battery set.  
 <BR>
 
+## Assembly  
+The majority of components are traditional soldered ‘through hole’ types. Cleaning the PCB and battery clip feet of contamination with Isopropyl Alcohol immediately prior to assembly and use of a quality rosin flux will assist with high quality soldered joints. Assembly should commence with the connector see <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">here</a>, followed by components mounted on top side. Commencing in order from lowest to highest profile above the PCB. The last component to be fitted should be the lower battery retention clip. It is important to ensure the lower surface soldered clip mates directly with the PCB. As clearance between the lower case and clip is very small. Using Kapton tape or other technique to ensure the feet of the battery clip remain seated directly in contact with the PCB is helpful, to ensure solder does not excessively raise the clip feet from the PCB. Subsequently causing the clip to interfere with the bottom  cover interior surface.  
+
+Following assembly, it is strongly recommended to follow the testing regimen detailed pre and post assembly.  
+<BR>
+
 ## Assembly testing
 PCB is tested for trace continuity and trace short circuits.  
  - PCB visual inspection including screen printing, traces, coatings, via quality and dimensional verification
