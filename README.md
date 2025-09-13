@@ -124,9 +124,18 @@ All the above tests performed on the same battery set.
 <BR>
 
 ## Assembly  
-The majority of components are traditional soldered ‘through hole’ types. Cleaning the PCB and battery clip feet of contamination with Isopropyl Alcohol immediately prior to assembly and use of a quality rosin flux will assist with high quality soldered joints. Assembly should commence with the connector see <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">here</a>, followed by components mounted on top side. Commencing in order from lowest to highest profile above the PCB. The last component to be fitted should be the lower battery retention clip. It is important to ensure the lower surface soldered clip mates directly with the PCB. As clearance between the lower case and clip is very small. Using Kapton tape or other technique to ensure the feet of the battery clip remain seated directly in contact with the PCB is helpful, to ensure solder does not excessively raise the clip feet from the PCB. Subsequently causing the clip to interfere with the bottom  cover interior surface. As the clip is in effect a spring following insertion of a battery, this results in the soldered battery clip joint to be placed under a continuing applied force. A high quality soldered joint is therefore necessary and attention to cleaning, additional flux and solder technique highly advantageous.  
 
-Following assembly, it is strongly recommended to follow the testing regimen detailed pre and post assembly.  
+
+It is strongly recommended to follow the testing regimen detailed pre and post assembly.  
+
+Most components are traditional soldered ‘through-hole’ types. To ensure high-quality solder joints, clean the PCB and battery clip feet with Isopropyl Alcohol immediately before assembly, and use a quality rosin flux.  
+
+Begin assembly with the connector, as outlined in the <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">alignment guide</a>. Then proceed with mounting components on the top side of the PCB, starting with the lowest-profile parts and working up to the tallest.  
+
+The final component to install should be the lower battery retention clip. It’s important that the clip’s soldered surface mates directly with the PCB, as the clearance between the lower case and clip is minimal. To prevent the clip feet from lifting during soldering, secure them with Kapton tape or a similar method. This helps avoid excess solder raising the clip, which could cause interference with the bottom cover.  
+
+Since the clip acts as a spring once the battery is inserted, the solder joint will be under continuous mechanical stress. Therefore, a strong, clean solder joint—achieved through proper cleaning, flux application, and technique—is essential.  
+ 
 <BR>
 
 ## Assembly testing
