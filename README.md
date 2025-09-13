@@ -126,12 +126,13 @@ All the above tests performed on the same battery set.
 
 ## Assembly  
 
-
 It is strongly recommended to follow the testing regimen detailed pre and post assembly.  
 
 Most components are traditional soldered ‘through-hole’ types. To ensure high-quality solder joints, clean the PCB and battery clip feet with Isopropyl Alcohol immediately before assembly, and use a quality rosin flux.  
 
 Begin assembly with the connector, as outlined in the <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2#connector-alignment">alignment guide</a>. Then proceed with mounting components on the top side of the PCB, starting with the lowest-profile parts and working up to the tallest.  
+
+Correct orientation of the two diodes D10 & D11 is critical to proper operation of the Battery Saver. The Cathode end of both diodes are oriented towards the Top Slot multiway connector (see <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-13.jpg">image</a>, <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-06.png">also</a>  ).
 
 The final component to install should be the lower battery retention clip. It’s important that the clip’s soldered surface mates directly with the PCB, as the clearance between the lower case and clip is minimal. To prevent the clip feet from lifting during soldering, secure them with Kapton tape or a similar method. This helps avoid excess solder raising the clip, which could cause interference with the bottom cover.  
 
