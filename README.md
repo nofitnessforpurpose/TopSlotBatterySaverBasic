@@ -45,10 +45,11 @@ The design presents a battery backup system interface to the <a href="https://ww
 
 A minimum configuration comprises:   
 
-| Qty | Pt. No.          | Description        |
-| --- | ---------------- | ------------------ |  
-|  1  | Your Ord. No.    | 2 layer PCB        |
-|  1  | Your Ord. No.    | <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2">Case</a> or Original Manufacturer Part|
+| Qty | Pt. No.          | Description        |  
+| --- | ---------------- | ------------------ |   
+|  1  | Your Ord. No.    | 2 layer PCB        |  
+|  1  | Your Ord. No.    | <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2">Case</a> or Original Manufacturer Part |  
+|  1  | Your Ord. No.    | Screw 2mm x 12.7mm CSK H Selftap (if not using Original Manufacturer Part) |  
   
 <BR>    
   
