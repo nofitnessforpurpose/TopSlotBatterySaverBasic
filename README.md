@@ -41,12 +41,40 @@ Models might be viewed on line using the following links. Noting display of any 
 ## Implementation  
 The design presents a battery backup system interface to the <a href="https://www.jaapsch.net/psion/manxp.htm#c1">Top Slot</a> hardware of a PSION Organiser II family of devices. The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 2 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is through hole PCB based for ease of assembly.  
 <BR>
-A minimum configuration comprises:  
-- a 2 layer PCB  
-- 1N4148 diode
-- 2 battery clips
-- 2 x 8 way Right angle header (~8 mm engagement length, gold plated)
-- 2 off CR2032 batteries or similar
+<div align="left">
+
+A minimum configuration comprises:   
+
+| Qty | Pt. No.          | Description        |
+| --- | ---------------- | ------------------ |  
+|  1  | Your Ord. No.    | 2 layer PCB        |
+|  1  | Your Ord. No.    | <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2">Case</a> or Original Manufacturer Part|
+  
+<BR>    
+  
+| Qty | Mouser Pt. No.   | Description        |
+| --- | ---------------- | ------------------ |  
+|  1  | 512-1N4148       | 1N4148 diode       |
+|  2  | 712-BAT-HLD-001  | battery clips      |
+|  1  | 649-1012938291604BLF | 2 x 8 way Right angle header (~8 mm engagement length, gold plated) |
+|  2  | 658-CR2032       | CR2032 batteries or similar |
+  
+<BR>    
+  
+Optional:  
+| Qty | Mouser Pt. No.   | Description        |
+| --- | ---------------- | ------------------ |  
+| 1   | 474-PRT-00119    | Barrel Jack Conn.  |
+| 1   | 863-1N4001RLG    | 1N4001 Diode       |
+| 1   | 710-151033RS03000 | LED Red           |
+| 1   | NFR25H0004701JR500 | 4k7 Resistor     |
+
+
+Note:  
+a) Purchase order quantities may stipulate M.O.Qs.  
+b) If using the original manufacturer case the connector must be also be used, typically the diode and barrel connector may also be re-used following careful removal.
+
+</div>
 <BR>
 
 ### Device Power Source  
