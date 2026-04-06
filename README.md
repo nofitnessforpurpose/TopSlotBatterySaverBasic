@@ -4,7 +4,7 @@ A minimal Top Slot, battery failure memory saver for PSION Organiser II (all fam
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-11.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic/blob/main/photos/BATSVE-11.jpg" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
@@ -174,7 +174,7 @@ The envisaged use case is in place of the classic power supply adaptor. However,
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png?raw=true" width="300px" alt="PSION Organiser II Top Slot Basic I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotRetroIOBasic/blob/main/images/TSRIOB-09.png" width="300px" alt="PSION Organiser II Top Slot Basic I/O Interface. Image copyright (c) 08 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
